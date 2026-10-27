@@ -1,4 +1,3 @@
-
 name: Hello World CI-CD Pipeline
 
 on:
@@ -10,7 +9,6 @@ on:
 
 permissions:
   contents: read
-
 
 
 jobs:
