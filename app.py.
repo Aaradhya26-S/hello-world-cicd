@@ -6,3 +6,8 @@ def hello_world():
 if __name__ == "__main__":
     print(hello_world())
 # GitHub Actions workflow test
+      - name: Check repository files
+        run: |
+          pwd
+          ls -la
+          find . -name "app.py"
